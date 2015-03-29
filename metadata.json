@@ -1,0 +1,6 @@
+{
+	"uuid": "workspace_scroll@squgeim.com.np", 
+	"shell-version": ["3.16.0"], 
+	"name": "Workspace Scroll", 
+	"description": "Scroll the top panel to change workspace"
+}
