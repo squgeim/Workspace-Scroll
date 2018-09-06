@@ -56,7 +56,12 @@ function _onScroll(actor, event) {
     default:
       return Clutter.EVENT_PROPAGATE;
   }
-  let activeWs = global.screen.get_active_workspace();
+  let activeWs;
+  if (global.hasOwnProperty('screen')) {
+  	activeWs = global.screen.get_active_workspace();
+  } else {
+  	activeWs = global.workspaceManager.get_active_workspace();
+  }
   let ws = activeWs.get_neighbor(motion);
   if(!ws) return Clutter.EVENT_STOP;
 
