@@ -57,7 +57,7 @@ function _onScroll(actor, event) {
       return Clutter.EVENT_PROPAGATE;
   }
   let activeWs;
-  if (global.hasOwnProperty('screen')) {
+  if (global.screen) {
   	activeWs = global.screen.get_active_workspace();
   } else {
   	activeWs = global.workspaceManager.get_active_workspace();
