@@ -33,7 +33,7 @@ function disable() {
 function _onScroll(actor, event) {
   let source = event.get_source();
   if (source != actor) {
-    let inStatusArea = panel._rightBox && panel._rightBox.contains && panel._rightBox.contain(source);
+    let inStatusArea = panel._rightBox && panel._rightBox.contains && panel._rightBox.contains(source);
     if (inStatusArea) {
       return Clutter.EVENT_PROPAGATE;
     }
