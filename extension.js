@@ -42,15 +42,9 @@ function _onScroll(actor, event) {
   let motion;
   switch(event.get_scroll_direction()) {
     case Clutter.ScrollDirection.UP:
-      motion = Meta.MotionDirection.UP;
-      break;
-    case Clutter.ScrollDirection.DOWN:
-      motion = Meta.MotionDirection.DOWN;
-      break;
-    case Clutter.ScrollDirection.LEFT:
       motion = Meta.MotionDirection.LEFT;
       break;
-    case Clutter.ScrollDirection.RIGHT:
+    case Clutter.ScrollDirection.DOWN:
       motion = Meta.MotionDirection.RIGHT;
       break;
     default:
