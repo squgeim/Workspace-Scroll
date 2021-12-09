@@ -14,9 +14,10 @@
     "40.3",
     "40.2",
     "40.1",
-    "40.0"
-  ], 
+    "40.0",
+    "41.0"
+  ],
   "url": "https://github.com/squgeim/Workspace-Scroll", 
   "uuid": "workspace_scroll@squgeim.com.np", 
-  "version": "2.1.1"
+  "version": "3.0.0"
 }
