@@ -3,6 +3,30 @@
   "description": "Just scroll anywhere in the top panel to change the workspace.", 
   "name": "Workspace Scroll", 
   "shell-version": [
+    "42.11",
+    "42.10",
+    "42.9",
+    "42.8",
+    "42.7",
+    "42.6",
+    "42.5",
+    "42.4",
+    "42.3",
+    "42.2",
+    "42.1",
+    "42.0",
+    "41.11",
+    "41.10",
+    "41.9",
+    "41.8",
+    "41.7",
+    "41.6",
+    "41.5",
+    "41.4",
+    "41.3",
+    "41.2",
+    "41.1",
+    "41.0",
     "40.11",
     "40.10",
     "40.9",
@@ -14,10 +38,9 @@
     "40.3",
     "40.2",
     "40.1",
-    "40.0",
-    "41.0"
+    "40.0"
   ],
   "url": "https://github.com/squgeim/Workspace-Scroll", 
   "uuid": "workspace_scroll@squgeim.com.np", 
-  "version": "3.0.0"
+  "version": "3.1.0"
 }
